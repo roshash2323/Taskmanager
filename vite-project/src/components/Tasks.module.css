@@ -1,0 +1,144 @@
+:root{
+
+    --color-primary: #f9d72f;
+    --color-background:#e6e6e6;
+    --color-task:#f7f7f7;
+    --color-success:#36d39a;
+    --color-warning:#fbbe23;
+    --color-error:#f87171;
+
+
+}
+body{
+    max-width:1000px;
+    margin:auto;
+
+
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    background-color: #669bbc;
+    display: flex;
+    flex-direction: column;
+    width:100%;
+    margin:40px auto 20px;
+    padding:20px;
+    align-items: center;
+    box-shadow: 0 8px 32px 0 ;
+    border-radius: 10px;
+    
+}
+h1{
+    font-size: 2rem;
+    margin-bottom:30px;
+   
+}
+
+.inputssection{
+    width:100%;
+    /* display: flex;
+    justify-content: space-between; */
+    margin-bottom: 40px;
+
+}
+
+.inputssection input {
+    width:50%;
+    margin-right: 10px;
+    padding:10px;
+    border-radius: 5px;
+    border: none;
+    color: grey;
+    text-align: right;
+    
+
+}
+
+.inputssection input:focus {
+    outline: none;
+    border-width: 2px;
+}
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+}
+button{
+    padding:10px 15px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: #edf2f4;
+    font-weight: 600;
+    /* background-color: var(--color-primary); */
+    
+}
+button:hover {
+    opacity: 0.8;
+}
+
+table{
+
+width:100%;
+margin-top: 20px;
+color: grey;
+}
+thead{
+    background-color: var(--color-background);
+   
+}
+
+thead th{
+    padding: 10px;
+    color: #4059ad;
+   
+}
+thead th:first-child{
+    border-top-left-radius: 10px;
+}
+thead th:last-child{
+    border-top-left-radius: 10px;
+
+}
+tbody td button{
+    padding:4px 8px;
+    margin: 2px 5px;
+}
+tbody td button:nth-child(1){
+    background-color: var(--color-warning);
+
+}
+tbody td button:nth-child(2){
+    background-color: var(--color-success);
+
+}
+tbody td button:nth-child(3){
+    background-color: var(--color-error);
+}
+.success{
+    background-color: var(--color-success);
+}
+.error{
+    background-color: var(--color-error);
+
+}
+.success{
+   background-color: var(--color-success);
+
+}
+.error , .success{
+  
+    width:100%;
+    text-align: center;
+    border-radius: 4px;
+    padding: 5px;
+    font-size: 1rem;
+}
+
